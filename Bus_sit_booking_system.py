@@ -12,10 +12,11 @@ class BusBookingSystem:
             for i in range(booking_seats):
               seat_number=int(input("Enter the seat number you want to book: "))
               if seat_number in bus_seat:
-               store_seat.append(seat_number) 
-            print("Your booked seats are:", store_seat)  
-            print("congratulations! Your seats have been booked successfully.")
-            exit("Thank you for using the Bus Booking System!") 
+                 store_seat.append(seat_number) 
+                 print("Your booked seats are:", store_seat)  
+                 print("congratulations! Your seats have been booked successfully.")
+                 exit("Thank you for using the Bus Booking System!") 
+              exit()    
 
 
 object=BusBookingSystem()
